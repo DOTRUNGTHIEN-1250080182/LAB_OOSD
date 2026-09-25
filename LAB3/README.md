@@ -1,5 +1,9 @@
 # LAB 3 - HỆ THỐNG QUẢN LÝ KHÁCH SẠN
 
+**Sinh viên:** Đỗ Trung Thiện  
+**MSSV:** 1250080182  
+
+
 ## 1. Thông tin bài thực hành
 
 - Đề tài: Hệ thống quản lý khách sạn
