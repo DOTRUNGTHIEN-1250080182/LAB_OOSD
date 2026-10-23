@@ -1,3 +1,5 @@
+Đỗ Trung Thiện
+1250080182
 # HỆ THỐNG QUẢN LÝ NHÂN SỰ SƠN ĐÔNG Á
 
 ## 1. Giới thiệu
