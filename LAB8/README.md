@@ -45,30 +45,4 @@ HoaDon
 PhieuHen
 PhieuGhiNo
 ```
-Ngoài ra, `DuLieu` là lớp chứa các danh sách dữ liệu để ứng dụng lưu/tải; `DataStore` là lớp hỗ trợ lưu trữ; `MainForm` là lớp giao diện. Đây không phải ba Class nghiệp vụ bổ sung của sơ đồ tối giản.
-5. Cách mở và chạy trong Visual Studio
-Yêu cầu: Windows, Visual Studio 2022 (có workload .NET desktop development) và .NET 8 SDK.
-Giải nén thư mục `CuaHangNuocGiaiKhat_WinForms`.
-Mở Visual Studio, chọn Open a project or solution.
-Chọn file `CuaHangNuocGiaiKhat.csproj`.
-Đợi Visual Studio tải project, sau đó nhấn F5 hoặc Start để chạy.
-Khi chạy lần đầu, chương trình tự tạo một số dữ liệu mẫu.
-Lưu ý: Giao diện được tạo trực tiếp bằng code trong `MainForm.cs`, vì vậy project không có `Form1.Designer.cs`. Project cũng không sử dụng SQL Server hoặc Oracle.
-6. Dữ liệu được lưu ở đâu?
-Dữ liệu được lưu tự động trong file:
-```text
-%LOCALAPPDATA%\CuaHangNuocGiaiKhat\data.json
-```
-Đây là đường dẫn dữ liệu của máy Windows khi chạy chương trình, không phải file nằm sẵn trong thư mục source code.
-7. Gợi ý demo trên lớp
-Bán hàng bình thường: Mở tab Bán hàng → chọn một sản phẩm còn tồn → nhập số lượng → Thanh toán ngay → Lập hóa đơn.
-Khách quen thiếu hàng: Chọn khách quen → nhập số lượng lớn hơn tồn kho → lập hóa đơn → xem tab Phiếu hẹn.
-Đặt hàng và nhận hàng: Vào các tab Đặt và nhận hàng → tạo đơn đặt → nhận hàng từng đợt để cập nhật kho.
-Ghi nợ: Chọn khách quen → chọn hình thức Ghi nợ → lập hóa đơn → xem tab Phiếu ghi nợ.
-8. Giới hạn của phiên bản đơn giản
-Mỗi đơn đặt hàng và hóa đơn hiện chỉ hỗ trợ một loại nước giải khát.
-Chưa xây dựng bảng chi tiết nhiều mặt hàng cho mỗi chứng từ.
-Chưa có đăng nhập, phân quyền, in hóa đơn hay báo cáo thống kê nâng cao.
-Dữ liệu JSON chỉ phù hợp với bài thực hành/demo, chưa phù hợp hệ thống nhiều người dùng.
----
-Ghi chú: Tài liệu README này mô tả đúng cấu trúc source code hiện tại và là phần có thể đưa vào bài báo cáo thực hành.
+
